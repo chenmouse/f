@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://ipvb.gitee.io/blog"
 languageCode = "en-us"
 title = "A Hugo website"
 theme = "hugo-lithium"
