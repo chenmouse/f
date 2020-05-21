@@ -1,0 +1,40 @@
+---
+title: COVID-19 MAP (PICTURE)
+author: CHEN
+date: '2020-05-07'
+slug: covid-19-map-picture
+categories: []
+tags: []
+---
+
+
+
+<div class="figure" style="text-align: center"><span id="fig:img1"></span>
+<img src="images/timg.jpg" alt="Rmd法" width="80%" />
+<p class="caption">
+Figure 1: Rmd法
+</p>
+</div>
+<div class="figure">
+<img src="images/timg.jpg" alt="md法" />
+<p class="caption">md法</p>
+</div>
+<p><font color=blue>nCov2019包绘制图片</font></p>
+<div class="figure" style="text-align: center"><span id="fig:img2"></span>
+<img src="images/map.png" alt="图" width="80%" />
+<p class="caption">
+Figure 2: 图
+</p>
+</div>
+<pre><code>x &lt;- get_nCov2019()
+
+
+d  &lt;-  x[&#39;湖北&#39;,]
+
+
+
+dev.new()
+ggplot(d, aes(area = dead, fill = name, label = paste(name, dead, sep = &quot;\n&quot;))) +
+  geom_treemap() +
+  geom_treemap_text(fontface = &quot;italic&quot;, colour = &quot;white&quot;, place = &quot;centre&quot;,grow = TRUE)
+</code></pre>

@@ -1,0 +1,35 @@
+---
+title: COVID-19 MAP (PICTURE)
+author: CHEN
+date: '2020-05-07'
+slug: covid-19-map-picture
+categories: []
+tags: []
+---
+```{r img1, fig.cap='Rmd法', out.width='80%', fig.align='center', echo=FALSE}
+knitr::include_graphics("images/timg.jpg")
+```
+![md法](images/timg.jpg)
+
+<font color=blue>nCov2019包绘制图片</font>
+
+```{r img2, fig.cap='图', out.width='80%', fig.align='center', echo=FALSE}
+knitr::include_graphics("images/map.png")
+```
+
+```
+x <- get_nCov2019()
+
+
+d  <-  x['湖北',]
+
+
+
+dev.new()
+ggplot(d, aes(area = dead, fill = name, label = paste(name, dead, sep = "\n"))) +
+  geom_treemap() +
+  geom_treemap_text(fontface = "italic", colour = "white", place = "centre",grow = TRUE)
+
+```
+
+

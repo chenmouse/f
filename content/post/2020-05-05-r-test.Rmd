@@ -1,0 +1,15 @@
+---
+title: R test
+author: chen
+date: '2020-05-05'
+slug: r-test
+categories: []
+tags: []
+---
+大泽耗子
+
+```{r img3, fig.cap='chen', out.width='80%', fig.align='center', echo=FALSE}
+knitr::include_graphics("images/logo.png")
+```
+![imag](test.jpg){height=200 width=200}
+[图片来源：观察者网]("https://space.bilibili.com/10330740?from=search&seid=7910783667332122188")

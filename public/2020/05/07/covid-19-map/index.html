@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.68.1" />
+
+
+<title>COVID-19 MAP - A Hugo website</title>
+<meta property="og:title" content="COVID-19 MAP - A Hugo website">
+
+
+  <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/test.jpg"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="https://github.com/rstudio/blogdown">GitHub</a></li>
+    
+    <li><a href="https://twitter.com/rstudio">Twitter</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">1 min read</span>
+    
+
+    <h1 class="article-title">COVID-19 MAP</h1>
+
+    
+    <span class="article-date">2020-05-07</span>
+    
+
+    <div class="article-content">
+      <p>## 安装
+## https://github.com/GuangchuangYu/nCov2019
+install.packages(&ldquo;remotes&rdquo;)
+remotes::install_github(&ldquo;GuangchuangYu/nCov2019&rdquo;)
+## 加载所需包
+library(nCov2019)  # 数据
+library(ggplot2)   # 制图
+library(treemapify) # 制图方法,  矩形树图
+library(treemap)   # 制图方法
+library(dplyr) # 数据整理</p>
+<h2 id="heading"></h2>
+<p>x &lt;- get_nCov2019()
+# x[]
+# df &lt;- x[]
+# df[2,]
+# df[,3]</p>
+<p>d  &lt;-  x[&lsquo;湖北&rsquo;,]
+# hc &lt;- d$confirm
+# mean(hc)
+# max(hc)
+# min(hc)
+# log10(hc)
+# summary(d)
+# names(d)</p>
+<p># ggplot(data = d, mapping = aes(x = name, y = log10(confirm))) +
+#     geom_point()
+# 
+# ggplot(economics, aes(date, unemploy)) +
+#     geom_line(colour = &ldquo;red&rdquo;)</p>
+<p>ggplot(d, aes(area = dead, fill = name, label = paste(name, dead, sep = &ldquo;\n&rdquo;))) +
+    geom_treemap() +
+    geom_treemap_text(fontface = &ldquo;italic&rdquo;, colour = &ldquo;white&rdquo;, place = &ldquo;centre&rdquo;,grow = TRUE)</p>
+<p>e &lt;- x[][]
+e
+ggplot(e, aes(area = confirm, fill = name, label = paste(name, confirm, sep = &ldquo;\n&rdquo;))) +
+    geom_treemap() +
+    geom_treemap_text(fontface = &ldquo;italic&rdquo;, colour = &ldquo;white&rdquo;, place = &ldquo;centre&rdquo;,grow = TRUE)</p>
+<p>d$confirm=as.numeric(d$confirm)
+d$name = fct_reorder(d$name, d$confirm)
+ggplot(d, aes(name, confirm)) +
+    geom_col(fill='steelblue&rsquo;) + coord_flip() +
+    geom_text(aes(y = confirm+2, label=confirm), hjust=0) +
+    theme_minimal(base_size=14) +
+    scale_y_continuous(expand=c(0,10)) +
+    xlab(NULL) + ylab(NULL)</p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+<script src="/js/math-code.js"></script>
+<script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+  </body>
+</html>
+

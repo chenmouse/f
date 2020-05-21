@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A Hugo website</title>
+    <link>/</link>
+    <description>Recent content on A Hugo website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 May 2020 21:48:51 -0700</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>COVID-19 MAP (PICTURE)</title>
+      <link>/2020/05/07/covid-19-map-picture/</link>
+      <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/05/07/covid-19-map-picture/</guid>
+      <description>Figure 1: Rmd法md法
+nCov2019包绘制图片
+Figure 2: 图x &amp;lt;- get_nCov2019()d &amp;lt;- x[&amp;#39;湖北&amp;#39;,]dev.new()ggplot(d, aes(area = dead, fill = name, label = paste(name, dead, sep = &amp;quot;\n&amp;quot;))) +geom_treemap() +geom_treemap_text(fontface = &amp;quot;italic&amp;quot;, colour = &amp;quot;white&amp;quot;, place = &amp;quot;centre&amp;quot;,grow = TRUE)</description>
+    </item>
+    
+    <item>
+      <title>我的博客</title>
+      <link>/about/</link>
+      <pubDate>Tue, 05 May 2020 21:48:51 -0700</pubDate>
+      
+      <guid>/about/</guid>
+      <description>{height=200 width=200}</description>
+    </item>
+    
+    <item>
+      <title>R test</title>
+      <link>/2020/05/05/r-test/</link>
+      <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/05/05/r-test/</guid>
+      <description>大泽耗子
+Figure 1: chen图片来源：观察者网</description>
+    </item>
+    
+  </channel>
+</rss>
