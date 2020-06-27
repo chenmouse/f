@@ -1,6 +1,5 @@
 ---
 date: "2020-05-05T21:48:51-07:00"
-title: 我的博客
+title: 陈泽昊的博客
 ---
-
-![imag](about.jpg){height=200 width=200}
+<font face="黑体" color=green size=5>这是关于18级信息资源管理学生陈泽昊的博客，该博客中会记录学习内容和旅行日记</font>

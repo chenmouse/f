@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.68.1" />
+
+
+<title>COVID-19 相关 (PICTURE) - A Hugo website</title>
+<meta property="og:title" content="COVID-19 相关 (PICTURE) - A Hugo website">
+
+
+  <link href='/blog/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/blog/css/fonts.css" media="all">
+<link rel="stylesheet" href="/blog/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/blog/" class="nav-logo">
+    <img src="/blog/images/title.jpeg"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/blog/about/">About</a></li>
+    
+    <li><a href="https://github.com/rstudio/blogdown">GitHub</a></li>
+    
+    <li><a href="https://twitter.com/rstudio">Twitter</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">6 min read</span>
+    
+
+    <h1 class="article-title">COVID-19 相关 (PICTURE)</h1>
+
+    
+    <span class="article-date">2020-06-25</span>
+    
+
+    <div class="article-content">
+      
+<script src="/blogrmarkdown-libs/htmlwidgets/htmlwidgets.js"></script>
+<script src="/blogrmarkdown-libs/jquery/jquery.min.js"></script>
+<link href="/blogrmarkdown-libs/leaflet/leaflet.css" rel="stylesheet" />
+<script src="/blogrmarkdown-libs/leaflet/leaflet.js"></script>
+<link href="/blogrmarkdown-libs/leafletfix/leafletfix.css" rel="stylesheet" />
+<script src="/blogrmarkdown-libs/Proj4Leaflet/proj4-compressed.js"></script>
+<script src="/blogrmarkdown-libs/Proj4Leaflet/proj4leaflet.js"></script>
+<link href="/blogrmarkdown-libs/rstudio_leaflet/rstudio_leaflet.css" rel="stylesheet" />
+<script src="/blogrmarkdown-libs/leaflet-binding/leaflet.js"></script>
+<script src="/blogrmarkdown-libs/leaflet-providers/leaflet-providers_1.9.0.js"></script>
+<script src="/blogrmarkdown-libs/leaflet-providers-plugin/leaflet-providers-plugin.js"></script>
+<script src="/blogrmarkdown-libs/plotly-binding/plotly.js"></script>
+<script src="/blogrmarkdown-libs/typedarray/typedarray.min.js"></script>
+<link href="/blogrmarkdown-libs/crosstalk/css/crosstalk.css" rel="stylesheet" />
+<script src="/blogrmarkdown-libs/crosstalk/js/crosstalk.min.js"></script>
+<link href="/blogrmarkdown-libs/plotly-htmlwidgets-css/plotly-htmlwidgets.css" rel="stylesheet" />
+<script src="/blogrmarkdown-libs/plotly-main/plotly-latest.min.js"></script>
+<link href="/blogrmarkdown-libs/dygraphs/dygraph.css" rel="stylesheet" />
+<script src="/blogrmarkdown-libs/dygraphs/dygraph-combined.js"></script>
+<script src="/blogrmarkdown-libs/dygraphs/shapes.js"></script>
+<script src="/blogrmarkdown-libs/moment/moment.js"></script>
+<script src="/blogrmarkdown-libs/moment-timezone/moment-timezone-with-data.js"></script>
+<script src="/blogrmarkdown-libs/moment-fquarter/moment-fquarter.min.js"></script>
+<script src="/blogrmarkdown-libs/dygraphs-binding/dygraphs.js"></script>
+
+
+<body bgcolor="#666666">
+</body>
+<pre><code>## [1] &quot;今天是我离开学校的第158天&quot;</code></pre>
+<p><font color=blue>nCov2019包绘制图片</font>
+<img src="/blogpost/2020-05-07-covid-19-map-picture_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+<div id="月25号世界确诊人数分布" class="section level2">
+<h2>6月25号世界确诊人数分布</h2>
+<p><img src="/blogpost/2020-05-07-covid-19-map-picture_files/figure-html/unnamed-chunk-6-1.png" width="672" /></p>
+</div>
+<div id="月25号世界治愈人数分布" class="section level2">
+<h2>6月25号世界治愈人数分布</h2>
+<body   style="overflow-y:visible">
+<p><img src="/blogpost/2020-05-07-covid-19-map-picture_files/figure-html/unnamed-chunk-7-1.png" width="672" /></p>
+</div>
+<div id="月25号世界死亡人数分布" class="section level2">
+<h2>6月25号世界死亡人数分布</h2>
+<p><img src="/blogpost/2020-05-07-covid-19-map-picture_files/figure-html/unnamed-chunk-8-1.png" width="672" /></p>
+<hr />
+</div>
+<div id="全球大部分地区6月25号确诊人数" class="section level2">
+<h2>全球大部分地区6月25号确诊人数</h2>
+<div id="htmlwidget-1" style="width:100%;height:480px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["Stamen.Toner",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addCircleMarkers","args":[[33,41.1533,28.0339,42.5063,-11.2027,17.0608,-38.4161,40.0691,-35.4735,-33.8688,-12.4634,-28.0167,-34.9285,-41.4545,-37.8136,-31.9505,47.5162,40.1431,25.0343,26.0275,23.685,13.1939,53.7098,50.8333,9.3077,27.5142,-16.2902,43.9159,-14.235,4.5353,42.7339,12.2383,16.5388,11.55,3.848,53.9333,49.2827,37.6489,53.7609,46.5653,53.1355,44.682,51.2538,46.5107,52.9399,52.9399,6.6111,15.4542,-35.6751,31.8257,40.1824,30.0572,26.0789,37.8099,23.3417,23.8298,26.8154,19.1959,39.549,47.862,33.882,22.3,30.9756,27.6104,44.0935,32.9711,27.614,43.6661,41.2956,22.1667,37.2692,35.7452,35.1917,36.3427,31.202,37.5777,30.6171,39.3054,31.6927,41.1129,24.974,29.1832,4.5709,-4.0383,-4.0383,9.7489,7.54,45.1,0,22,35.1264,49.8175,61.8926,71.7069,56.2639,11.8251,18.7357,-1.8312,26,13.7942,1.5,15.1794,58.5953,-26.5225,9.145,-17.7134,64,3.9339,-17.6797,16.25,-12.8275,-20.9043,-21.1351,17.9,18.0708,14.6415,46.2276,-0.8037,13.4432,42.3154,51,7.9465,39.0742,15.7835,9.9456,5,18.9712,41.9029,15.2,47.1625,64.9631,21,-0.7893,32,33,53.1424,31,43,18.1096,36,31.24,48.0196,-0.0236,36,29.5,41.2044,56.8796,33.8547,6.4281,47.14,55.1694,49.8153,-18.7669,2.5,3.2028,35.9375,21.0079,-20.2,23.6345,47.4116,43.7333,46.8625,42.5,31.7917,-22.9576,28.1667,12.5186,12.1696,18.0425,52.1326,-40.9006,12.8654,17.6078,9.082,41.6086,60.472,21,30.3753,8.538,-6.315,-23.4425,-9.19,13,51.9194,39.3999,25.3548,45.9432,60,-1.9403,13.9094,12.9843,43.9424,24,14.4974,44.0165,-4.6796,1.2833,48.669,46.1512,5.1521,-30.5595,40,7,12.8628,3.9193,63,46.8182,23.7,-6.369,15,8.6195,10.6918,34,38.9637,1,48.3794,24,32.3078,19.3133,49.3723,36.1408,54.2361,16.7425,55.3781,-32.5228,37.0902,41.3775,6.4238,16,-15.4167,-20,0,15.415,12.1165,-18.665695,34.802075,-8.874217,13.1939,19.85627,26.3351,31.9522,11.8037,17.570692,17.357822,64.8255,64.2823,42.602636,21.9162,18.2206,18.4207,21.694,0,-22.3285,-3.3731,8.460555,12.1784,-13.254308,-51.7963,46.8852,6.877,24.2155,0.18636,15.552727,-11.6455,38.861034,-29.609988],[65,20.1683,1.6596,1.5218,17.8739,-61.7964,-63.6167,45.0382,149.0124,151.2093,130.8456,153.4,138.6007,145.9707,144.9631,115.8605,14.5501,47.5769,-77.3963,50.55,90.3563,-59.5432,27.9534,4,2.3158,90.4336,-63.5887,17.6791,-51.9253,114.7277,25.4858,-1.5616,-23.0418,104.9167,11.5021,-116.5765,-123.1207,-122.6655,-98.8139,-66.4619,-57.6604,-63.7443,-85.3232,-63.4168,-73.5491,-106.4509,20.9394,18.7322,-71.543,117.2264,116.4142,107.874,117.9874,101.0583,113.4244,108.7881,106.8748,109.7453,116.1306,127.7615,113.614,114.2,112.2707,111.7088,113.9448,119.455,115.7221,126.1923,122.6085,113.55,106.1655,95.9956,108.8701,118.1498,121.4491,112.2922,102.7103,117.323,88.0924,85.2401,101.487,120.0934,-74.2973,21.7587,21.7587,-83.7534,-5.5471,15.2,0,-80,33.4299,15.473,-6.9118,-42.6043,9.5018,42.5903,-70.1627,-78.1834,30,-88.8965,10,39.7823,25.0136,31.4659,40.4897,178.065,26,-53.1258,149.4068,-61.5833,45.1662,165.618,55.2471,-62.8333,-63.0501,-61.0242,2.2137,11.6094,-15.3101,43.3569,9,-1.0232,21.8243,-90.2308,-9.6966,-58.75,-72.2852,12.4534,-86.2419,19.5033,-19.0208,78,113.9213,53,44,-7.6921,35,12,-77.2975,138,36.51,66.9237,37.9062,128,47.75,74.7661,24.6032,35.8623,-9.4295,9.55,23.8813,6.1296,46.8691,112.5,73.2207,14.3754,10.9408,57.5,-102.5528,28.3699,7.4167,103.8467,19.3,-7.0926,18.4904,84.25,-70.0358,-68.99,-63.0548,5.2913,174.886,-85.2072,8.0817,8.6753,21.7453,8.4689,57,69.3451,-80.7821,143.9555,-58.4438,-75.0152,122,19.1451,-8.2245,51.1839,24.9668,90,29.8739,-60.9789,-61.2872,12.4578,45,-14.4524,21.0059,55.492,103.8333,19.699,14.9955,46.1996,22.9375,-4,81,30.2176,-56.0278,16,8.2275,121,34.8888,101,0.8248,-61.2225,9,35.2433,32,31.1656,54,-64.7505,-81.2546,-2.3644,-5.3536,-4.5481,-62.1874,-3.436,-55.7658,-95.7129,64.5853,-66.5897,108,28.2833,30,0,-61.371,-61.679,35.529562,38.996815,125.727539,-59.5432,102.495496,17.228331,35.2332,-15.1804,-3.996166,-62.782998,-124.8457,-135,20.902977,95.956,-63.0686,-64.64,-71.7979,0,24.6849,29.9189,-11.779889,-68.2385,34.301525,-59.5236,-56.3159,31.307,-12.8858,6.613081,48.516388,43.3333,71.276093,28.233608],[10.3147690459657,7.69256964806791,9.42907421480169,6.75110146893676,5.35658627467201,4.17438726989564,10.8677490653579,10.0207371125864,4.68213122712422,8.06085575293432,3.36729582998647,6.97260625130175,6.08677472691231,5.42934562895444,7.5740450053722,6.41017488196617,9.76864100976636,9.60588981529697,4.64439089914137,10.0891784267997,11.7488351809341,4.57471097850338,11.0084463262631,11.0187438906701,6.92461239604856,4.24849524204936,10.2577646238749,8.24170315972982,14.0209902172566,4.94875989037817,8.39117635083275,6.83947643822884,6.91075078796194,4.86753445045558,9.44081697065718,8.96839619119826,7.96171881598136,2.56494935746154,5.75574221358691,5.10594547390058,5.56452040732269,6.96696713861398,10.4925511795528,3.29583686600433,10.9165237972675,6.63200177739563,8.0845624152353,6.76041469108343,12.4648304144036,6.89871453432999,6.77308037565554,6.36647044773144,5.89440283426485,5.08140436498446,7.39939808333135,5.53733426701854,4.99043258677874,5.14166355650266,5.85507192220243,6.85329909318608,7.15148546390474,7.08422642209792,11.1292463101839,6.92657703322272,5.47227067367148,6.4831073514572,6.83733281468559,5.04342511691925,5.03695260241363,3.8286413964891,4.31748811353631,2.89037175789616,5.76519110278484,6.67456139181443,6.55819780281227,5.28826703069454,6.37842618365159,5.28826703069454,0,4.33073334028633,5.22035582507832,7.14598446771439,11.2556173963734,6.99117688712121,8.76577054398726,7.89506349809157,9.0280988119824,7.81722278550817,6.56807791141198,7.74975340627444,6.89972310728487,9.29376198011525,5.23110861685459,2.56494935746154,9.44430516192198,8.44139147799996,10.2799013962503,10.8809862654514,11.0207580230228,8.58223158759546,7.60140233458373,4.969813299576,7.59287028784482,6.55961523749324,8.55159461813357,2.89037175789616,8.87793983472502,8.01730750768858,4.0943445622221,5.15905529921453,7.82724090175281,3.04452243772342,6.24610676548156,1.79175946922805,3.73766961828337,5.46383180502561,12.1615354247624,8.53444354482276,3.76120011569356,6.82110747225646,12.1723659024643,9.64685184848967,8.10802122137675,9.65624340085772,8.55140136274597,5.37063802812766,8.6202911494198,2.484906649788,9.63991255542758,8.3243363327069,7.51207124583547,13.1029787027538,10.8235113079994,12.2788397190811,10.5748746913135,10.1427012840278,10.0168162378431,12.3871684513983,6.52795791762255,9.80117793371156,6.99025650049388,9.89090877032927,8.59118687132456,9.441610810502,10.664012968426,8.34379173199684,7.01301578963963,7.41577697541539,6.52356230614951,4.40671924726425,7.49886973397693,8.33110454805304,7.51152464839087,9.0595174822416,7.73061406606374,6.50428817353665,8.22657347497711,5.83188247728352,12.2207198495769,9.64555843823369,4.62497281328427,5.3890717298165,6.02586597382531,9.33591519488425,4.62497281328427,9.32027043134838,4.61512051684126,3.13549421592915,4.34380542185368,10.8180568035119,7.32646561384032,7.68248244653451,6.96224346426621,10.0263244624952,8.62962862074603,9.0811424335045,10.4602994131388,12.1845680707427,10.2763261578172,2.30258509299405,7.35819375273303,12.5009860090599,10.4063515666314,10.4078624148067,10.6069562821679,11.4277814343128,10.1380061618718,13.3263616213403,6.74523634948436,2.94443897916644,3.36729582998647,6.54821910276237,12.0473054928374,8.73761303680885,9.50091824753999,2.39789527279837,10.6627969353497,7.39633529380081,7.34407285057307,7.96485088744731,11.6816128304884,12.4191092937344,7.60589000105312,9.10320049641828,5.92157841964382,11.0649181335964,10.3554544942957,6.10255859461357,6.23244801655052,8.05769419481559,6.37672694789863,4.81218435537242,7.05789793741186,12.1710411453582,6.71052310945243,10.617760014711,10.7485615133193,4.98360662170834,5.27811465923052,6.34738920965601,5.17048399503815,5.8171111599632,2.39789527279837,12.6377901247824,6.81014245011514,14.7002276471685,8.87863674743007,8.4257355809274,5.8636311755981,7.31121838441963,6.31173480915291,null,2.89037175789616,3.13549421592915,6.66949808985788,5.48893772615669,3.17805383034795,3.13549421592915,2.94443897916644,6.54821910276237,7.23128700432762,7.34987370473834,7.62021477057445,2.70805020110221,1.6094379124341,2.39789527279837,7.68202151082687,5.68017260901707,1.09861228866811,2.07944154167984,2.70805020110221,2.19722457733622,4.52178857704904,4.969813299576,7.21081845347222,1.94591014905531,6.86693328446188,2.56494935746154,0,7.57147364885127,2.30258509299405,6.56667242980324,6.98100574072173,5.605802066296,8.64664125860312,2.83321334405622],null,null,{"interactive":true,"className":"","stroke":false,"color":"#DA4138","weight":5,"opacity":0.5,"fill":true,"fillColor":"#DA4138","fillOpacity":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]},null,null,null,null,["NA , Afghanistan :  30175","NA , Albania :  2192","NA , Algeria :  12445","NA , Andorra :  855","NA , Angola :  212","NA , Antigua and Barbuda :  65","NA , Argentina :  52457","NA , Armenia :  22488","Australian Capital Territory , Australia :  108","New South Wales , Australia :  3168","Northern Territory , Australia :  29","Queensland , Australia :  1067","South Australia , Australia :  440","Tasmania , Australia :  228","Victoria , Australia :  1947","Western Australia , Australia :  608","NA , Austria :  17477","NA , Azerbaijan :  14852","NA , Bahamas :  104","NA , Bahrain :  24081","NA , Bangladesh :  126606","NA , Barbados :  97","NA , Belarus :  60382","NA , Belgium :  61007","NA , Benin :  1017","NA , Bhutan :  70","NA , Bolivia :  28503","NA , Bosnia and Herzegovina :  3796","NA , Brazil :  1228114","NA , Brunei :  141","NA , Bulgaria :  4408","NA , Burkina Faso :  934","NA , Cabo Verde :  1003","NA , Cambodia :  130","NA , Cameroon :  12592","Alberta , Canada :  7851","British Columbia , Canada :  2869","Grand Princess , Canada :  13","Manitoba , Canada :  316","New Brunswick , Canada :  165","Newfoundland and Labrador , Canada :  261","Nova Scotia , Canada :  1061","Ontario , Canada :  36046","Prince Edward Island , Canada :  27","Quebec , Canada :  55079","Saskatchewan , Canada :  759","NA , Central African Republic :  3244","NA , Chad :  863","NA , Chile :  259064","Anhui , China :  991","Beijing , China :  874","Chongqing , China :  582","Fujian , China :  363","Gansu , China :  161","Guangdong , China :  1635","Guangxi , China :  254","Guizhou , China :  147","Hainan , China :  171","Hebei , China :  349","Heilongjiang , China :  947","Henan , China :  1276","Hong Kong , China :  1193","Hubei , China :  68135","Hunan , China :  1019","Inner Mongolia , China :  238","Jiangsu , China :  654","Jiangxi , China :  932","Jilin , China :  155","Liaoning , China :  154","Macau , China :  46","Ningxia , China :  75","Qinghai , China :  18","Shaanxi , China :  319","Shandong , China :  792","Shanghai , China :  705","Shanxi , China :  198","Sichuan , China :  589","Tianjin , China :  198","Tibet , China :  1","Xinjiang , China :  76","Yunnan , China :  185","Zhejiang , China :  1269","NA , Colombia :  77313","NA , Congo (Brazzaville) :  1087","NA , Congo (Kinshasa) :  6411","NA , Costa Rica :  2684","NA , Cote d'Ivoire :  8334","NA , Croatia :  2483","NA , Diamond Princess :  712","NA , Cuba :  2321","NA , Cyprus :  992","NA , Czechia :  10870","Faroe Islands , Denmark :  187","Greenland , Denmark :  13","NA , Denmark :  12636","NA , Djibouti :  4635","NA , Dominican Republic :  29141","NA , Ecuador :  53156","NA , Egypt :  61130","NA , El Salvador :  5336","NA , Equatorial Guinea :  2001","NA , Eritrea :  144","NA , Estonia :  1984","NA , Eswatini :  706","NA , Ethiopia :  5175","NA , Fiji :  18","NA , Finland :  7172","French Guiana , France :  3033","French Polynesia , France :  60","Guadeloupe , France :  174","Mayotte , France :  2508","New Caledonia , France :  21","Reunion , France :  516","Saint Barthelemy , France :  6","St Martin , France :  42","Martinique , France :  236","NA , France :  191288","NA , Gabon :  5087","NA , Gambia :  43","NA , Georgia :  917","NA , Germany :  193371","NA , Ghana :  15473","NA , Greece :  3321","NA , Guatemala :  15619","NA , Guinea :  5174","NA , Guyana :  215","NA , Haiti :  5543","NA , Holy See :  12","NA , Honduras :  15366","NA , Hungary :  4123","NA , Iceland :  1830","NA , India :  490401","NA , Indonesia :  50187","NA , Iran :  215096","NA , Iraq :  39139","NA , Ireland :  25405","NA , Israel :  22400","NA , Italy :  239706","NA , Jamaica :  684","NA , Japan :  18055","NA , Jordan :  1086","NA , Kazakhstan :  19750","NA , Kenya :  5384","NA , Korea, South :  12602","NA , Kuwait :  42788","NA , Kyrgyzstan :  4204","NA , Latvia :  1111","NA , Lebanon :  1662","NA , Liberia :  681","NA , Liechtenstein :  82","NA , Lithuania :  1806","NA , Luxembourg :  4151","NA , Madagascar :  1829","NA , Malaysia :  8600","NA , Maldives :  2277","NA , Malta :  668","NA , Mauritania :  3739","NA , Mauritius :  341","NA , Mexico :  202951","NA , Moldova :  15453","NA , Monaco :  102","NA , Mongolia :  219","NA , Montenegro :  414","NA , Morocco :  11338","NA , Namibia :  102","NA , Nepal :  11162","Aruba , Netherlands :  101","Curacao , Netherlands :  23","Sint Maarten , Netherlands :  77","NA , Netherlands :  49914","NA , New Zealand :  1520","NA , Nicaragua :  2170","NA , Niger :  1056","NA , Nigeria :  22614","NA , North Macedonia :  5595","NA , Norway :  8788","NA , Oman :  34902","NA , Pakistan :  195745","NA , Panama :  29037","NA , Papua New Guinea :  10","NA , Paraguay :  1569","NA , Peru :  268602","NA , Philippines :  33069","NA , Poland :  33119","NA , Portugal :  40415","NA , Qatar :  91838","NA , Romania :  25286","NA , Russia :  613148","NA , Rwanda :  850","NA , Saint Lucia :  19","NA , Saint Vincent and the Grenadines :  29","NA , San Marino :  698","NA , Saudi Arabia :  170639","NA , Senegal :  6233","NA , Serbia :  13372","NA , Seychelles :  11","NA , Singapore :  42736","NA , Slovakia :  1630","NA , Slovenia :  1547","NA , Somalia :  2878","NA , South Africa :  118375","NA , Spain :  247486","NA , Sri Lanka :  2010","NA , Sudan :  8984","NA , Suriname :  373","NA , Sweden :  63890","NA , Switzerland :  31428","NA , Taiwan* :  447","NA , Tanzania :  509","NA , Thailand :  3158","NA , Togo :  588","NA , Trinidad and Tobago :  123","NA , Tunisia :  1162","NA , Turkey :  193115","NA , Uganda :  821","NA , Ukraine :  40854","NA , United Arab Emirates :  46563","Bermuda , United Kingdom :  146","Cayman Islands , United Kingdom :  196","Channel Islands , United Kingdom :  571","Gibraltar , United Kingdom :  176","Isle of Man , United Kingdom :  336","Montserrat , United Kingdom :  11","NA , United Kingdom :  307980","NA , Uruguay :  907","NA , US :  2422299","NA , Uzbekistan :  7177","NA , Venezuela :  4563","NA , Vietnam :  352","NA , Zambia :  1497","NA , Zimbabwe :  551","Diamond Princess , Canada :  0","NA , Dominica :  18","NA , Grenada :  23","NA , Mozambique :  788","NA , Syria :  242","NA , Timor-Leste :  24","NA , Belize :  23","NA , Laos :  19","NA , Libya :  698","NA , West Bank and Gaza :  1382","NA , Guinea-Bissau :  1556","NA , Mali :  2039","NA , Saint Kitts and Nevis :  15","Northwest Territories , Canada :  5","Yukon , Canada :  11","NA , Kosovo :  2169","NA , Burma :  293","Anguilla , United Kingdom :  3","British Virgin Islands , United Kingdom :  8","Turks and Caicos Islands , United Kingdom :  15","NA , MS Zaandam :  9","NA , Botswana :  92","NA , Burundi :  144","NA , Sierra Leone :  1354","Bonaire, Sint Eustatius and Saba , Netherlands :  7","NA , Malawi :  960","Falkland Islands (Malvinas) , United Kingdom :  13","Saint Pierre and Miquelon , France :  1","NA , South Sudan :  1942","NA , Western Sahara :  10","NA , Sao Tome and Principe :  711","NA , Yemen :  1076","NA , Comoros :  272","NA , Tajikistan :  5691","NA , Lesotho :  17"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"setView":[[10,0],1.5,[]],"limits":{"lat":[-51.7963,71.7069],"lng":[-135,178.065]}},"evals":[],"jsHooks":[]}</script>
+</div>
+<div id="月18号-2月6号国内疫情动态图" class="section level2">
+<h2>1月18号-2月6号国内疫情动态图</h2>
+<p><img src="images/疫情地图可视化动态图.gif" width="50%" style="display: block; margin: auto;" /></p>
+</div>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/blog/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/blog/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+
+    
+  </body>
+</html>
+

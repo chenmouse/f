@@ -1,0 +1,66 @@
+---
+title: 旅行日记
+author: 陈泽昊
+date: '2020-06-26'
+slug: 旅行日记
+categories: []
+tags: []
+---
+
+<body bgcolor="#D1EEEE"></body>
+
+<font color=#0099ff size=7 face="黑体">这是20年1月在日本旅行的经历</font>
+
+
+##  <font color=#0099ff size=7 face="黑体"> Travel Day1</font>
+```{r img2, fig.cap='', out.width='40%', fig.align='left', echo=FALSE}
+knitr::include_graphics("images/qian.jpg")
+```  
+<font color=#0099ff size=4 face="黑体"><p>第一天的目的地是浅草寺和天空树，在这里和外国旅客一起拍照并享用美食</font></p>
+
+```{r img3, fig.cap='', out.width='30%', fig.align='right', echo=FALSE}
+knitr::include_graphics("images/skytree.jpg")
+```
+
+
+## <font color=#0099ff size=7 face="黑体"> Travel Day2</font>
+```{r img4, fig.cap='', out.width='50%', fig.align='center', echo=FALSE}
+knitr::include_graphics("images/DisneySea.jpg")
+```
+<font color=#0099ff size=4 face="黑体"><p>第二天迪士尼海洋公园是日本特有的迪士尼乐园，里面有着古堡惊魂、地心探险之旅、海底两万里等多种有趣项目</font></p>
+
+
+## <font color=#0099ff size=7 face="黑体"> Travel Day3</font>
+
+```{r img5, fig.cap='', out.width='50%', fig.align='center', echo=FALSE}
+knitr::include_graphics("images/ni.jpg")
+```
+<font color=gray size=4 face="微软雅黑"><center>此处为今年大火的动漫电影《你的名字》取景地之一</center></font>
+
+
+## <font color=#0099ff size=7 face="黑体"> Travel Day4</font>
+```{r img13, fig.cap='', out.width='50%', fig.align='center', echo=FALSE}
+knitr::include_graphics("images/ming.jpg")
+```
+<font color=gray size=4 face="微软雅黑"><center><p>明治神宫的森林，其实远比我们看到的要广阔。从东京上空看过去，是一整片茂密的深绿。尤其在天空树俯瞰东京全景时，我对它印象深刻。</p></center></font>
+
+
+## <font color=#0099ff size=7 face="黑体"> Travel Day5</font>
+```{r img14, fig.cap='', out.width='50%', fig.align='center', echo=FALSE}
+knitr::include_graphics("images/tai.jpg")
+```
+<font color=gray size=4 face="微软雅黑"><center>台场高达秀</center></font>
+
+
+## <font color=#0099ff size=7 face="黑体"> Travel Day6</font>
+```{r img15, fig.cap='', out.width='50%', fig.align='center', echo=FALSE}
+knitr::include_graphics("images/zhan.jpg")
+```
+<font color=gray size=4 face="微软雅黑"><center>TEAMLAB森之艺术馆</center></font>
+
+
+## <font color=#0099ff size=7 face="黑体"> Travel Day7</font>
+```{r img17, fig.cap='', out.width='50%', fig.align='center', echo=FALSE}
+knitr::include_graphics("images/jiang.jpg")
+```
+<font color=gray size=4 face="微软雅黑"><center>大江户温泉物语</center></font>

@@ -3,36 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/2020/05/07/covid-19-map-picture/</loc>
+    <loc>/blog/post/</loc>
+    <lastmod>2020-06-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/2020/06/26/%E5%AD%A6%E4%B9%A0%E5%86%85%E5%AE%B9/</loc>
+    <lastmod>2020-06-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/2020/06/26/%E6%97%85%E8%A1%8C%E6%97%A5%E8%AE%B0/</loc>
+    <lastmod>2020-06-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/2020/05/07/covid-19-map-picture/</loc>
     <lastmod>2020-05-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2020-05-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
+    <loc>/blog/</loc>
     <lastmod>2020-05-05T21:48:51-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/about/</loc>
+    <loc>/blog/about/</loc>
     <lastmod>2020-05-05T21:48:51-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/2020/05/05/r-test/</loc>
-    <lastmod>2020-05-05T00:00:00+00:00</lastmod>
+    <loc>/blog/categories/</loc>
   </url>
   
   <url>
-    <loc>/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
+    <loc>/blog/tags/</loc>
   </url>
   
 </urlset>
